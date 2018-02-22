@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+CRUD::resource('tag', 'Admin\TagCrudController');
+
+Route::group(['prefix' => config('backpack.base.route_prefix'), 'middleware' => ['admin'], 'namespace' => 'Admin'], function(){
+   CRUD::resource('tag', 'TagCrudController');
+   CRUD::resource('customer', 'CustomerCrudController');
+});
