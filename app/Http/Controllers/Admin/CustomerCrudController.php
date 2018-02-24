@@ -31,7 +31,17 @@ class CustomerCrudController extends CrudController
         $this->crud->setFromDb();
 
         // ------ CRUD FIELDS
-        // $this->crud->addField($options, 'update/create/both');
+        $avatar_options = [
+               'name' => 'avatar', // The db column name
+               'label' => "customer image", // Table column heading
+               'type' => 'browse',
+                // 'prefix' => 'folder/subfolder/',
+                // optional width/height if 25px is not ok with you
+                // 'height' => '40px',
+                // 'width' => '40px',
+            ];
+        $this->crud->addField($avatar_options, 'update/create/both');
+
         // $this->crud->addFields($array_of_arrays, 'update/create/both');
         // $this->crud->removeField('name', 'update/create/both');
         // $this->crud->removeFields($array_of_names, 'update/create/both');

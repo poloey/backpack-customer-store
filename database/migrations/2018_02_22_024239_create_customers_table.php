@@ -17,7 +17,9 @@ class CreateCustomersTable extends Migration
             $table->string('name');
             $table->string('email');
             $table->string('city');
+            $table->date('join_date')->default(date('Y-m-d'));
             $table->string('address')->nullable();
+            $table->string('avatar')->default('images/defatul.png');
             $table->timestamps();
         });
     }
