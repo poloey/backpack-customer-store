@@ -1,6 +1,6 @@
 # backpack dashboard datatable for storing customer data
 
-Its build with latest laravel 5.6 and css framework bootstrap 4 css. User can track their inventory and sales data.
+Its build with latest laravel 5.6 and css framework bootstrap 4 css. User can store customers data using backpack laravel admin.
 
 
 # Technology
