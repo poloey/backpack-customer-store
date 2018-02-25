@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect(route('backpack.dashboard'));
 });
 
 CRUD::resource('tag', 'Admin\TagCrudController');

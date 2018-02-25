@@ -1,7 +1,7 @@
 <?php namespace App\Libraries;
 
 class Helpers {
-  const NUMBER_OF_CUSTOMERS = 20;
+  const NUMBER_OF_CUSTOMERS = 80;
   const USERS = [
     [
       'name' => 'arafat',
