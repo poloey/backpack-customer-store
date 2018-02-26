@@ -57,4 +57,13 @@ mkdir public/uploads
 php artisan serve
 ~~~
 
+## dummy user login credentials     
+
+* email: arafat@gmail.com pass: secret             
+* email: nur@gmail.com pass: secret             
+* email: tahmina@gmail.com pass: secret             
+* email: farhana@gmail.com pass: secret             
+* email: sakhawat@gmail.com pass: secret             
+
+
 Take care 
